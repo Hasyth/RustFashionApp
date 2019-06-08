@@ -1,18 +1,54 @@
 package com.example.rustfashionapp;
 
+import java.util.Set;
+
+import java.util.Set;
+
 public class User {
+    public String uId;
 
-    private int user_id;
-    private String email;
-    private String password;
-    private  String user_name;
+    public String fName;
+    public String lName;
+    public String gender;
 
-    public int getUser_id() {
-        return user_id;
+    public String email;
+
+    public String password;
+    public String address;
+    public String contact;
+
+    public String role;
+
+    public String getuId() {
+        return uId;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setuId(String uId) {
+        this.uId = uId;
+    }
+
+    public String getfName() {
+        return fName;
+    }
+
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public void setlName(String lName) {
+        this.lName = lName;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getEmail() {
@@ -31,11 +67,27 @@ public class User {
         this.password = password;
     }
 
-    public String getUser_name() {
-        return user_name;
+    public String getAddress() {
+        return address;
     }
 
-    public void setUser_name(String user_name) {
-        this.user_name = user_name;
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }
